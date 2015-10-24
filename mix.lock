@@ -1,0 +1,8 @@
+%{"combine": {:hex, :combine, "0.5.2"},
+  "hackney": {:hex, :hackney, "1.3.2"},
+  "idna": {:hex, :idna, "1.0.2"},
+  "meck": {:hex, :meck, "0.8.3"},
+  "mock": {:hex, :mock, "0.1.1"},
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"},
+  "timex": {:hex, :timex, "0.19.5"},
+  "tzdata": {:hex, :tzdata, "0.5.4"}}
