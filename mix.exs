@@ -27,7 +27,7 @@ defmodule Eotp.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:timex, "~> 0.19"},
+    [{:timex, "~> 3.1"},
      {:mock, "~> 0.1.1", only: :test}]
   end
 end

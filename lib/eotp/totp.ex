@@ -49,7 +49,7 @@ defmodule Eotp.Totp do
   end
 
   defp current_time do
-    {:ok, time} = Timex.Date.now
+    {:ok, time} = Timex.now("UTC")
     |> Timex.Format.DateTime.Formatter.format("{s-epoch}")
 
     {time, _} = Integer.parse(time)
