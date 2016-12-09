@@ -56,17 +56,3 @@ defmodule Eotp.Totp do
     time
   end
 end
-
-# defmodule Eotp.Totp do
-#   def valid?
-#   def valid_at?
-#   def now
-#   def at
-
-#   # Steps
-#   # Hmac with secret and time / period
-#   # Bitshift hmac to code
-#   # Get remainder of code / (# of digits ** 10)
-#   # Convert number to string
-#   # pad string
-# end
